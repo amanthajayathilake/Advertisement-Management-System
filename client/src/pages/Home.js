@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <div>
-      <h1>Advertisements</h1>
+      {/* <h1>Advertisements</h1> */}
       {listOfPosts.map((value, key) => {
         return (
           <div className="post">
